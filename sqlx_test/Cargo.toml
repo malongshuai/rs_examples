@@ -1,0 +1,16 @@
+[package]
+name = "sqlx_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sqlx = { version = "0.6.2", features = ["runtime-tokio-native-tls", "sqlite", "mysql"] }
+tokio = { version = "*", features = ["full"] }
+tracing = "0.1.31"
+tracing-subscriber = "0.3.3"
+log = "0.4.14"
+serde = { version = "1.0.144", features = ["derive"] }
+strum_macros = "0.24.3"
+strum = "0.24.1"

@@ -1,0 +1,19 @@
+[package]
+name = "websocket_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio-tungstenite = { version = "0.16", features = ["native-tls"] }
+tokio = { version = "1.12", features = ["full"] }
+serde = { version = "1.0.130", features = ["derive"] }
+serde_json = "1.0"
+tokio-util = "0.6.9"
+futures = "0.3.18"
+flate2 = "1.0.22"
+tracing = "0.1.29"
+tracing-subscriber = { version = "0.3.3", features = ["time", "local-time"] }
+tracing-appender = "0.2.0"
+chrono = "0.4.19"

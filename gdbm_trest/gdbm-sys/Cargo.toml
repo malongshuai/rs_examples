@@ -1,0 +1,12 @@
+[package]
+name = "gdbm-sys"
+version = "0.3.0"
+authors = ["Chris Holcombe <xfactor973@gmail.com>"]
+homepage = "https://github.com/cholcombe973/gdbm-sys"
+description = "gdbm (berkeley database) FFI bindings"
+license = "MIT"
+keywords = ["gdbm", "bdm", "berkeley"]
+categories = ["external-ffi-bindings"]
+
+
+[dependencies]
